@@ -1,38 +1,56 @@
 body {
     background-color: ivory;
-}
-
-h1 {
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
     font-family: "sedgwick", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
 }
 
-#description {
-    background-color: none;
+h1 {
+    text-align: center;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
     color: brown;
 }
 
-.italics {
-    font-style: italic;
-}
 
-.black {
-    color: black;
+#title {
+    color: ivory;
+    text-align: center;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: -40px;
 }
 
 .black-box {
     background-color: brown;
     border-radius: 10px;
     color: white;
+    height: 125px;
+}
+
+.center-height{
+    border: solid transparent;
+}
+
+#all-items{}
+.column{
+    display: inline-block;
+    width: 49%;
+}
+
+.italics {
+    font-style: italic;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.black {
+    color: black;
 }
 
 li {
