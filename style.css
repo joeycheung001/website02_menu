@@ -1,5 +1,5 @@
 body {
-    background-color: ivory;
+    background-color: #faf3eb;
     font-family: "sedgwick", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -7,49 +7,64 @@ body {
 
 h1 {
     text-align: center;
+    
     font-family: "Sigmar", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
-    color: brown;
+    color: #853e3c;
 }
 
 
 #title {
-    color: ivory;
+    margin-bottom: -40px;
     text-align: center;
+
     font-family: "Sigmar", serif;
     font-weight: 400;
     font-style: normal;
-    margin-bottom: -40px;
+    color: white;
 }
 
 .black-box {
     margin: auto;
-    background-color: brown;
-    border-radius: 10px;
-    color: white;
     height: 125px;
     width: 635px;
+
+    border-radius: 10px;
+    background-color: #853e3c;
+    color: white;
 }
 
-.center-height{
+.center-height {
     border: solid transparent;
 }
 
-#all-items{
+#all-items {
     margin: auto;
     width: 635px;
     margin-top: -10px;
+    position: relative;
+    z-index: -1;
 }
 
-.column{
+.column {
     display: inline-block;
-    width: 46%;
-    margin-left: 0.75%;
-    border: solid brown;
-    border-radius: 10px;
     padding: 1%;
+    width: 46%;
+    margin-left: 1%;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+#item-name {
+    font-size: 20px;
+    color: #853e3c;
+}
+
+#caption {
+    color: #edac66;
 }
 
 .italics {
@@ -58,12 +73,4 @@ h1 {
 
 .bold {
     font-weight: bold;
-}
-
-.black {
-    color: black;
-}
-
-li {
-    color: red;
 }
