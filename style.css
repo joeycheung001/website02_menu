@@ -25,20 +25,31 @@ h1 {
 }
 
 .black-box {
+    margin: auto;
     background-color: brown;
     border-radius: 10px;
     color: white;
     height: 125px;
+    width: 635px;
 }
 
 .center-height{
     border: solid transparent;
 }
 
-#all-items{}
+#all-items{
+    margin: auto;
+    width: 635px;
+    margin-top: -10px;
+}
+
 .column{
     display: inline-block;
-    width: 49%;
+    width: 46%;
+    margin-left: 0.75%;
+    border: solid brown;
+    border-radius: 10px;
+    padding: 1%;
 }
 
 .italics {
