@@ -36,11 +36,13 @@ h1 {
     margin: auto;
     width: 600px;
     margin-top: -10px;
+    margin-bottom: -10px;
     position: relative;
     z-index: -1;
     border-radius: 10px;
     border: 5px solid #853e3c;
 }
+
 
 .column {
     display: inline-block;
@@ -66,6 +68,7 @@ h2 {
 
 #item-name {
     margin-bottom: 25px;
+
     font-family: "Erica One", serif;
     font-size: 15px;
     color: #853e3c;
@@ -73,8 +76,8 @@ h2 {
 
 #caption {
     margin-left: 5%;
+
     font-family: "Kirang Haerang", serif;
-    font-weight: 50;
     font-size: 15px;
     color: #edac66;
 }
@@ -84,6 +87,26 @@ img {
     width: 80%;
 }
 
+
+
+#footer {
+    text-align: center;
+    margin-bottom: 0px;
+
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#last-img {
+    position: relative;
+    height: 70px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .italics {
