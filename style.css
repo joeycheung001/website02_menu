@@ -19,7 +19,7 @@ h1 {
 .black-box {
     margin: auto;
     height: 125px;
-    width: 635px;
+    max-width: 100%;
 
     border-radius: 10px;
     background-color: #853e3c;
@@ -34,11 +34,15 @@ h1 {
 
 #all-items {
     margin: auto;
-    width: 600px;
+    max-width: 90%;
     margin-top: -10px;
     margin-bottom: -10px;
+
     position: relative;
     z-index: -1;
+    display: flex;
+    justify-content: space-between;
+
     border-radius: 10px;
     border: 5px solid #853e3c;
 }
@@ -46,8 +50,8 @@ h1 {
 
 .column {
     display: inline-block;
-    padding: 4px;
-    width: 290px;
+    padding: 5%;
+    max-width: 39.5%;
     margin: none;
 
     background-color: white;
@@ -83,8 +87,7 @@ h2 {
 }
 
 img {
-    margin-left: 1%;
-    width: 80%;
+    max-width: 95%;
 }
 
 
@@ -102,7 +105,7 @@ img {
 #last-img {
     position: relative;
     height: 70px;
-    width: auto;
+    max-width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
